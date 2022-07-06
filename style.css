@@ -75,11 +75,27 @@ body{
     height: 200px;
     margin: 0 40px;
     padding-top: 80px;
-    background-color:#D35400;
+    background-color:#ff5959;
     border-radius: 10px; 
     cursor: pointer;
-    box-shadow: 5px 5px 5px  rgb(187, 187, 187);
+    box-shadow: 5px 5px 5px   rgb(187, 187, 187);
 }
+.donate-box .donate-amount-3{
+    width: 200px;
+    height: 200px;
+    margin: 0 40px;
+    padding-top: 80px;
+    background-color:#fff;
+    color: #D35400;
+    border: 2px solid #D35400;
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px  rgb(187, 187, 187);
+    cursor: pointer;
+}
+
  .donate-text-part h1{
     font-size: 40px;
  }
@@ -106,17 +122,24 @@ body{
    
 }
 .donate{
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
 }
 .donate-other-amount input{
     background-color: #f0f0f0;
     border-style: hidden;
     outline: none;
-    padding: 0 200px;
-    border-bottom: 2px solid #808B96;
+    width: 600px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #808B96;
     text-align: center;
     font-size: 20px;
+}
+.donate-other-amount ::placeholder{
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
 
 }
 .amount-btn{
@@ -127,9 +150,10 @@ body{
 }
 .amount-btn button{
     padding: 15px 30px;
-    background-color: #D35400;
+    background-color: #ff5959;
     font-size: 16px;
     color: #fff;
+    font-weight: 700;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -142,7 +166,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 70px;
 
 }
 .donation-text h1{
@@ -266,6 +290,8 @@ body{
     border-spacing: 0;
     border-style: none;
     background-color: #ff5959;
+    color: #fff;
+    font-weight: 700;
     position: absolute;
     cursor: pointer;
 
@@ -287,6 +313,7 @@ body{
     padding-bottom: 10px;
 }
 .footer-section p{
-    font-size: 16px;
+    color: #ddd;
+    font-size: 12px;
     padding-top: 15px 0;
 }
